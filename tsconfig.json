@@ -1,19 +1,10 @@
 {
 	"compilerOptions": {
-		/* Language and Environment */
-		"target": "es2016",
-
-		/* Modules */
+		"target": "ES2022", // Node.js 18
 		"module": "commonjs",
-
-		/* Emit */
 		"outDir": "dist",
-
-		/* Interop Constraints */
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-
-		/* Type Checking */
 		"strict": true,
 		"noImplicitReturns": true,
 		"noImplicitOverride": true,
@@ -24,8 +15,7 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noEmitOnError": true,
 		"useDefineForClassFields": true,
-
-		/* Completeness */
 		"skipLibCheck": true
-	}
+	},
+	"exclude": ["dist", "node_modules"]
 }

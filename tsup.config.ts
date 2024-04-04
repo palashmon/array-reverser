@@ -1,13 +1,13 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
+	target: "es2022",
 	entry: ["src/index.ts"],
-	format: ["cjs", "esm"], // Build for commonJS and ESmodules
-	dts: true, // Generate declaration file (.d.ts)
-	splitting: true,
+	format: ["cjs", "esm"],
+	dts: true,
+	splitting: false,
 	sourcemap: true,
 	clean: true,
 	minify: true,
-	bundle: true,
 	skipNodeModulesBundle: true,
 });
