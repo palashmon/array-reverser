@@ -1,4 +1,4 @@
-# array-reverser
+# array-reverser ![CI](https://github.com/palashmon/array-reverser/actions/workflows/main.yml/badge.svg)
 
 > Seamlessly reverse arrays or segments with ease
 
