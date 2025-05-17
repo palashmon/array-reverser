@@ -7,7 +7,7 @@
 	"repository": "palashmon/array-reverser",
 	"sideEffects": false,
 	"engines": {
-		"node": ">=20.18.3"
+		"node": ">=20.19.2"
 	},
 	"type": "module",
 	"exports": {
